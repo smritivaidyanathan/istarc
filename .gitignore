@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+#data
+data/visium_adult_mouse_brain
+
 # Distribution / packaging
 .Python
 build/
