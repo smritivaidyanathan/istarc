@@ -1,0 +1,4 @@
+﻿"Species","Tissue Class","Tissue Type","Cancer","Cell name","Cell marker","Source","Supports","Detail"
+"Mouse","Brain","Auditory cortex","Normal cell","Excitatory neuron","Fezf2","Experiment","1","DETAIL"
+"Mouse","Brain","Auditory cortex","Normal cell","Excitatory neuron","Foxp2","Experiment","1","DETAIL"
+"Mouse","Brain","Auditory cortex","Normal cell","Excitatory neuron","Slc17a7","Experiment","1","DETAIL"
