@@ -1,0 +1,9 @@
+# local envs
+.istarc_hd/
+.starfysh_env/
+
+# big data
+data/*.h5ad
+data/*.npy
+data/mouse_brain_visium_hd.sdata.zarr/
+data/**/*.zarr
