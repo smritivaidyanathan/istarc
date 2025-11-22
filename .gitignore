@@ -9,3 +9,5 @@ data/mouse_brain_visium_hd.sdata.zarr/
 data/**/*.zarr
 
 results
+
+istar
