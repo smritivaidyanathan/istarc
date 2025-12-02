@@ -8,6 +8,7 @@ data/*.h5ad
 data/*.npy
 data/mouse_brain_visium_hd.sdata.zarr/
 data/**/*.zarr
+data/starfysh_results/*.h5ad
 sata/heat_diffused_data/
 data/mouse_brain_visium_hd.sdata.zarr/
 .ipynb_checkpoints/ 
