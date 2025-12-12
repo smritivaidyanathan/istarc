@@ -1,6 +1,8 @@
 # istarc
 BMCS 4480 - Smriti Vaidyanathan &amp; Mahsa Mohajeri
 
+iSTAR-C extends the original iSTAR (Zhang et al., 2024) pipeline by adding biologically informed supervision for pixel-level cell-type prediction alongside gene-expression imputation. It uses Starfysh-derived spot-level cell-type proportions to guide a new cell-type head and optional heat-diffusion pseudo-labels to provide weak supervision outside Visium spots. The result is a model that retains iSTAR’s histology-driven gene-expression mapping while producing spatially resolved cell-type estimates.
+
 ## Directory Guide
 - **notebooks/cell_marker_data_analysis.ipynb**: explores marker lists and expression patterns used downstream.
 - **notebooks/cell_segmentation_comparison.ipynb**: compares segmentation outputs across methods.
