@@ -25,7 +25,7 @@ iSTAR-C extends the original iSTAR (Zhang et al., 2024) pipeline by adding biolo
 - Visium mouse brain runner (`src/istar_files_we_changed/run_visium_mouse_brain.sh`): configure `prefix` (output/work dir), `data_dir` (heat-diffused inputs), `use_ct_supervision`, `use_fake_hd_spots`, plus `hd_loss_weight` and `ct_loss_weight` before launching the pipeline.
 
 ## End-to-End Usage (Starfysh, Heat Diffusion, iSTAR)
-1) Download the spatial output data from https://www.10xgenomics.com/datasets/visium-hd-cytassist-gene-expression-libraries-of-mouse-brain-he.
+1) Download the spatial output data from https://www.10xgenomics.com/datasets/mouse-brain-section-coronal-1-standard
 2) Organize the data the way Starfysh expects (an example is in the `data` folder):
    - `data/signatures.csv` (you can use the provided markers file).
    - `data/visium_mouse_brain/` containing everything from the spatial outputs data folder mentioned above.
