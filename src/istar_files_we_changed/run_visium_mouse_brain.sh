@@ -8,7 +8,7 @@ use_ct_supervision=true
 use_fake_hd_spots=true
 hd_loss_weight=0.1
 ct_loss_weight=1.0
-data_dir="/gpfs/commons/home/svaidyanathan/istarc/data"  # base directory for heat diffused data
+data_dir="/gpfs/commons/home/svaidyanathan/istarc/data/heat_diffused_data"  # base directory for heat diffused data
 
 impute_flags=()
 if [ "$use_ct_supervision" = "true" ]; then

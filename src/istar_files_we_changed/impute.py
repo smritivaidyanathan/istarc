@@ -742,7 +742,7 @@ def main():
     # Heat Diffusion (fake-spots)
     if args.use_fake_hd_spots:
         print("Generating fake spots from heat-diffused maps.")
-        hd_maps, hd_genes = load_heatdiff_maps(hd_dir=f"{args.data_dir}/heat_diffused_data") 
+        hd_maps, hd_genes = load_heatdiff_maps(hd_dir=f"{args.data_dir}") 
         common_genes, idx_cnt, idx_hd = align_genes_between_cnts_and_heat(cnts, hd_genes)
 
         cnts_common = cnts.iloc[:, idx_cnt].copy()
